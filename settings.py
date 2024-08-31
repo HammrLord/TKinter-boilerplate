@@ -1,3 +1,5 @@
+# This is where you will configure how your app works.
+# This is also a good place to get your .env variables, and throw an exception if a critical variable is not found.
 
 import platform
 import os

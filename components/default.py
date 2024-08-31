@@ -1,4 +1,5 @@
 # for classes based on tkinter gui components
+from tkinter import Tk, ttk, Frame
 
 class SampleGUIComponent(Frame):
     def __init__(self, master, *args, **kwargs):

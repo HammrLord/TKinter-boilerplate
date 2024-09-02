@@ -1,7 +1,7 @@
-#main.py creates logs and saves them in the 'app.log' file. 
-#It creates a TKinterApp class with two tabs Manage and Settings.
-#Reads all the configuration of the TkinterApp class from a JSON file, if the file doesn't exist, it creates one with default settings.
-#Styles all the buttons in the Notebook.
+#This is where all the logs are created and saved in 'app.log'. 
+#This code establishes the foundation of the TKinterApp class for the application's appearance and behavior.
+#Loads all the configuration of the TkinterApp class from a JSON file, if the file doesn't exist, it creates one with default settings.
+#Creates a TKinter Notebook with two tabs 'Manage' and 'Settings'.    
 
 from tkinter import Tk, ttk, filedialog, Frame, StringVar, IntVar, Variable, END, PhotoImage, Listbox
 
